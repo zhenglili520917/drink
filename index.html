@@ -1,0 +1,63 @@
+<!-- 文件類型 html5 -->
+<!DOCTYPE html>
+
+<!-- 網頁 語言 -->
+<html lang="zh">
+
+<!-- 頭部 - 網頁描述 -->
+<head>
+
+    <!-- 編碼 萬國碼 -->
+    <meta charset="UTF-8">
+
+    <!-- 網站標題 - 瀏覽器標籤 -->
+    <title>KID 飲料店</title>
+
+    <!-- CSS 區塊 - 內部樣式 -->
+    <!-- <style>
+        #box {
+            background-color: rgba(0, 0, 0, 0.3);
+            height: 500px;
+        }
+    </style> -->
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<!-- 身體 - 網頁內容 -->
+<body>
+    <div id="box">
+        <!-- 導覽列元素 - 放 LOGO、分頁連結 - 有語意 提升 SEO -->
+        <nav>
+            <a href="index.html" id="logo">KID 飲料店</a>
+            <div>
+                <a href="#">關於我</a>
+                <a href="#">故事</a>
+                <a href="#">聯絡我</a>
+            </div>
+        </nav>
+        <!-- 內容區塊元素 - 標題、內文或按鈕等...  - 有語意 -->
+        <section id="content">
+            <h1>我們是 KID 飲料店</h1>
+            <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio, quas.
+            </p>
+            <a href="#">前往購買</a>
+            <hr>
+        </section>
+
+        <!-- 圖片按扭區塊 -->
+        <section id="button">
+            <!-- (a[href="#"]>img)*3 -->
+            <a href="#"><img src="person.png" alt="關於我"></a>
+            <a href="#"><img src="drink.png" alt="飲料"></a>
+            <a href="#"><img src="contact.png" alt="聯絡我"></a>
+        </section>
+        
+        <!-- 頁尾 -->
+        <footer>
+            KID 飲料店 &copy; 2019
+        </footer>
+    </div>
+</body>
+</html>

@@ -1,0 +1,104 @@
+/* 所有元素 */
+*{
+    /* 邊框 bd */
+    border: 00.1px solid rgba(202, 29, 29, 0.5);
+    /* 字體 ff */
+    font-family: 微軟正黑體;
+    /* 字體顏色 c#xxx */
+    color: #ffffff;
+}
+
+body{
+    /* 背景高度 h100p */
+    height: 100%;
+    /* 背景圖片bgi */
+    background-image: url("https://images.unsplash.com/photo-1527661591475-527312dd65f5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=658&q=80");
+    /* 背景大小 bgz */
+    background-size: cover;
+}
+
+/* 盒子區塊 */
+#box {
+    /* background-color: rgba(219, 136, 88, 0.3); */
+    height: 500px;
+    width: 800px;
+    /* 外距:上 右 下 左 */
+    margin: 100px auto 0 auto;
+}
+
+/* 導覽列區域 */
+#logo {
+    /* 字體大小 fz2e */
+    font-size: 2em;
+
+}
+
+nav a {
+    /* 邊框底線 bdb */
+    border-bottom: 1.5px solid #ffffff;
+    /* 內距 p */
+    padding: 10pt 0;
+}
+
+/* hover 滑入 */
+nav a:hover {
+    background-color:rgb(211, 14, 14);
+}
+
+a {
+    /* 文字裝飾 td */
+    text-decoration: none;
+}
+
+nav div {
+    /* 浮動：靠右flr */
+    float: right;
+}
+
+/* 內容區塊 w50p */
+#content {
+    width: 50%;
+    margin-top: 100px;
+}
+
+/* 內容 */
+#content a {
+    /* 邊框 */
+    border: 0.5px solid #ffffff;
+    /* 邊框內距 */
+    padding: 10px 15px;
+    /* 底色 bgc */
+    background-color:rgb(211, 14, 14);
+}
+
+/* 內容滑入 */
+#content a:hover { 
+    /* 滑入時顏色 bgc */
+    background-color:rgba(221, 41, 221, 0);
+}
+
+/* 按鈕區域 */
+#button {
+    /* 文字置中 */
+    text-align: center;
+    /* 上面的外距 */
+    margin-top: 50px
+}
+
+#button a {
+    /*  */
+    border: 0.5px solid #ffffff;
+    /* 邊框內距 */
+    padding: 28px;
+    /* 底色 bgc */
+    background-color:rgb(211, 14, 14);
+    /*  */
+    border-radius: 50%;
+    /* 行內區塊 dib */
+    display: inline-blocks;
+}
+
+/* 按鈕滑入 */
+#button a:hover{
+    background-color:rgba(221, 41, 221, 0);
+}
